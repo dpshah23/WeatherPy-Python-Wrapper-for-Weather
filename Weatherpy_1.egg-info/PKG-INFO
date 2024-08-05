@@ -30,7 +30,7 @@ WeatherPy is a simple Python module for fetching current weather conditions and 
 To install WeatherPy, you need to have Python installed on your machine. Install the required dependency by running:
 
 ```bash
-pip install weatherpy
+pip install Weatherpy-1==0.1
 ```
 
 ## Usage
@@ -40,7 +40,7 @@ pip install weatherpy
 Import the functions from the `weatherpy` module to get started.
 
 ```python
-from weatherpy import GetWeather, FutureForecast
+from WeatherPy.weather_utils import GetWeather, FutureForecast
 ```
 
 ### Get Current Weather
@@ -50,7 +50,7 @@ Use the `GetWeather` function to retrieve the current weather for a specific cit
 #### Example
 
 ```python
-from weatherpy import GetWeather
+from WeatherPy.weather_utils import GetWeather
 
 city = "London"
 current_weather = GetWeather(city)
@@ -78,7 +78,7 @@ Use the `FutureForecast` function to get a 5-day weather forecast for a given ci
 #### Example
 
 ```python
-from weatherpy import FutureForecast
+from WeatherPy.weather_utils import FutureForecast
 
 city = "London"
 forecast = FutureForecast(city)
@@ -129,7 +129,3 @@ If you'd like to contribute, please fork the repository and use a feature branch
 ## Acknowledgements
 
 - [WeatherAPI](https://www.weatherapi.com/) for providing weather data.
-
----
-
-Feel free to adjust this `README.md` as needed to fit the specific details of your project. You can also include additional sections, such as "Known Issues," "Roadmap," or "FAQ," if relevant.

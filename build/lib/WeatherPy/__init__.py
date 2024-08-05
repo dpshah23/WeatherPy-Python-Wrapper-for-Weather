@@ -1,1 +1,1 @@
-from weather import GetWeather, FutureForecast
+from .weather_utils import GetWeather, FutureForecast
