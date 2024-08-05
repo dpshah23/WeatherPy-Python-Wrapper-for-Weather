@@ -13,7 +13,7 @@ LONG_DESCRIPTION = 'A package that allows you to get the weather of any city in 
 
 # Setting up
 setup(
-    name="WeatherPy",
+    name="Weatherpy-1",
     version=VERSION,
     author="Deep Shah",
     author_email="dpshah2307@gmail.com",
