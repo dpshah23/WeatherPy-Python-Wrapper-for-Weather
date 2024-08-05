@@ -7,7 +7,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
-VERSION = '0.1'
+VERSION = '0.3'
 DESCRIPTION = 'Python Wrapper For Weather API'
 LONG_DESCRIPTION = 'A package that allows you to get the weather of any city in the world with a simple python function and it also gives you the future forecast of the city'
 

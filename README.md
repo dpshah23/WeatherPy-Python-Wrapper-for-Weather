@@ -12,7 +12,7 @@ WeatherPy is a simple Python module for fetching current weather conditions and 
 To install WeatherPy, you need to have Python installed on your machine. Install the required dependency by running:
 
 ```bash
-pip install Weatherpy-1==0.1
+pip install Weatherpy-1
 ```
 
 ## Usage

@@ -27,7 +27,7 @@ def GetWeather(city):
         return "City not found"
     else:
         data = response.json()
-        return {'temprature_c':data["current"]["temp_c"] , 'condition':data["current"]["condition"]["text"],'wind':data["wind_kph"]}
+        return {'temprature_c':data["current"]["temp_c"] , 'condition':data["current"]["condition"]["text"]}
     
 
 """

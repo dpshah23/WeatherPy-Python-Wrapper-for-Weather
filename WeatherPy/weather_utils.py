@@ -22,12 +22,12 @@ def GetWeather(city):
 
     response = requests.get(url)
 
-    print(response)
+
     if response.status_code != 200:
         return "City not found"
     else:
         data = response.json()
-        return {'temprature_c':data["current"]["temp_c"] , 'condition':data["current"]["condition"]["text"],'wind':data["wind_kph"]}
+        return {'temprature_c':data["current"]["temp_c"] , 'condition':data["current"]["condition"]["text"]}
     
 
 """
